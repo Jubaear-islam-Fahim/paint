@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Mirrored from demo.Paint.com/htmldemo/we-paintV2/wepaint-yellow/about-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Nov 2021 05:32:41 GMT -->
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>About-us V1 | WePaint Creative Html5 Template For Painting Company.</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css?family=Arvo:400,400i,700,700i&amp;display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Muli&amp;display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon.png">
+
+
+    <link rel="stylesheet" href="assets/css/font-awosome.css">
+
+    <link rel="stylesheet" href="assets/font/flaticon.css">
+
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+
+    <link rel="stylesheet" href="assets/css/jquery.fancybox.min.css">
+
+    <link rel="stylesheet" href="assets/css/jquery-ui.css">
+
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+
+<body>
+
+    <header class="header-area">
+        <div class="container">
+            <div class="paint-nav nav-fixed">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt=""></a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav hp-1-nav ml-auto mt-2">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services">Services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about-us.html">About</a>
+                            </li> 
+                            <li class="nav-item">
+                                <a class="nav-link mest" data-toggle="modal"
+                                    data-target="#exampleModalCenter">Estimate</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link last-child" href="tel:+4487788589(99)">Call : +44 8778 8589
+                                    (99)</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <div class="modal animated fadeIn" id="exampleModalCenter" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content e-m-contents">
+                <div class="modal-body">
+                    <button type="button" class="close es-close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="card estimate-card es-card-2">
+                        <span class="flaticon-paint esc-paint"></span>
+                        <h2>Get An Estimate</h2>
+                        <article class="card-body">
+                            <form>
+                                <span class="e-ctl"> 1. What are the wall dimensions?</span>
+                                <div class="form-row pt-2">
+                                    <div class="col form-group">
+                                        <label>Height (m) </label>
+                                        <input type="text" class="form-control" placeholder="0.00" id="wd-height"
+                                            required>
+                                    </div>
+                                    <div class="col form-group">
+                                        <label>Width (m)</label>
+                                        <input type="text" class="form-control" placeholder="0.00" id="wd-width"
+                                            required>
+                                    </div>
+                                </div>
+                                <span class="e-ctl">2. What are the dimensions of the windows/areas
+                                    that you don't want to cover in metres?</span>
+                                <div class="form-row pt-2">
+                                    <div class="form-group col">
+                                        <label>Height (m)</label>
+                                        <input type="text" class="form-control" placeholder="0.00" id="wnd-height"
+                                            value="00.00">
+                                    </div>
+                                    <div class="form-group col">
+                                        <label>Width (m)</label>
+                                        <input type="text" class="form-control" placeholder="0.00" id="wnd-width"
+                                            value="00.00">
+                                    </div>
+                                </div>
+                                <span class="e-ctl">3. What are the dimensions of the doors
+                                    that you don't want to cover in metres?</span>
+                                <div class="form-row pt-2">
+                                    <div class="form-group col">
+                                        <label>Height (m)</label>
+                                        <input type="text" class="form-control" placeholder="0" id="doord-height"
+                                            value="00.00">
+                                    </div>
+                                    <div class="form-group col">
+                                        <label>Width (m)</label>
+                                        <input type="text" class="form-control" placeholder="0" id="doord-width"
+                                            value="00.00">
+                                    </div>
+                                </div>
+
+                                <span class="e-ctl">4. How many coats of paint do you want?</span>
+                                <div class="form-group p-2">
+                                    <label class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="coat-qty-check" value="1"
+                                            checked>
+                                        <span class="form-check-label"> 1 coat</span>
+                                    </label>
+                                    <label class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="coat-qty-check" value="2">
+                                        <span class="form-check-label"> 2 coat</span>
+                                    </label>
+                                    <label class="form-check form-check-inline">
+                                        <input class="form-check-input" type="radio" name="coat-qty-check" value="3">
+                                        <span class="form-check-label"> 3 coat</span>
+                                    </label>
+                                </div>
+                                <div class="e-result">
+                                    <div class="e-tottle me-tottle">
+                                        <h3 id="litre-result">00.00</h3>
+                                        <span>litres of paint</span>
+                                    </div>
+                                    <div class="er-text">
+                                        <p>This is based on a coverage of
+                                            <span id="mitresquireperlitre">12</span>m² per litre of paint. Always
+                                            check the coverage on the side
+                                            of the tin before buying.</p>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <button type="button" class="btn-block ebtn" id="estimate-btn">Get Estimate
+                                        Now</button>
+                                </div>
+                                <div class="form-group">
+                                    <button type="button" class="btn-block ebtn-r" id="estimate-reset-btn">Reset
+                                        Estimate</button>
+                                </div>
+                            </form>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="service-area">
+        <div class="container">
+            <div class="row">
+                <h1>Terms of Service</h1>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="privacy-policy py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="article ">
+                        <h2>Terms of Service for <span class="highlight preview_company_name">Company Name</span></h2>
+                        <p>At <span class="highlight preview_website_name">Website Name</span>, accessible at <span
+                                class="highlight preview_website_url">Website.com</span>, one of our main priorities is
+                            the privacy of our visitors. This Terms of Service document contains types of information that
+                            is collected and recorded by <span class="highlight preview_website_name">Website
+                                Name</span> and how we use it.</p>
+                        <p>If you have additional questions or require more information about our Terms of Service, do not
+                            hesitate to contact us through email at <span
+                                class="highlight preview_email_address">Email@Website.com</span></p>
+                        <p>This Terms of Service applies only to our online activities and is valid for visitors to our
+                            website with regards to the information that they shared and/or collect in <span
+                                class="highlight preview_website_name">Website Name</span>. This policy is not
+                            applicable to any information collected offline or via channels other than this website.</p>
+                        <p><strong>Consent</strong></p>
+                        <p>By using our website, you hereby consent to our Terms of Service and agree to its terms.</p>
+                        <p><strong>Information we collect</strong></p>
+                        <p>The personal information that you are asked to provide, and the reasons why you are asked to
+                            provide it, will be made clear to you at the point we ask you to provide your personal
+                            information.</p>
+                        <p>If you contact us directly, we may receive additional information about you such as your
+                            name, email address, phone number, the contents of the message and/or attachments you may
+                            send us, and any other information you may choose to provide.</p>
+                        <p>When you register for an Account, we may ask for your contact information, including items
+                            such as name, company name, address, email address, and telephone number.</p>
+                        <p><strong>How we use your information</strong></p>
+                        <p>We use the information we collect in various ways, including to:</p>
+                        <ul>
+                            <li>Provide, operate, and maintain our website</li>
+                            <li>Improve, personalize, and expand our website</li>
+                            <li>Understand and analyze how you use our website</li>
+                            <li>Develop new products, services, features, and functionality</li>
+                            <li>Communicate with you, either directly or through one of our partners, including for
+                                customer service, to provide you with updates and other information relating to the
+                                website, and for marketing and promotional purposes</li>
+                            <li>Send you emails</li>
+                            <li>Find and prevent fraud</li>
+                        </ul>
+                        <p><strong>Log Files</strong></p>
+                        <p><span class="highlight preview_website_name">Website Name</span> follows a standard procedure
+                            of using log files. These files log visitors when they visit websites. All hosting companies
+                            do this and a part of hosting services' analytics. The information collected by log files
+                            include internet protocol (IP) addresses, browser type, Internet Service Provider (ISP),
+                            date and time stamp, referring/exit pages, and possibly the number of clicks. These are not
+                            linked to any information that is personally identifiable. The purpose of the information is
+                            for analyzing trends, administering the site, tracking users' movement on the website, and
+                            gathering demographic information.</p>
+                        <h3>Cookies and Web Beacons</h3>
+                        <p>Like any other website, <span class="highlight preview_website_name">Website Name</span> uses
+                            ‘cookies'. These cookies are used to store information including visitors' preferences, and
+                            the pages on the website that the visitor accessed or visited. The information is used to
+                            optimize the users' experience by customizing our web page content based on visitors'
+                            browser type and/or other information.</p>
+                        <h3>DoubleClick DART Cookie</h3>
+                        <p>Google is one of a third-party vendor on our site. It also uses cookies, known as DART
+                            cookies, to serve ads to our site visitors based upon their visit to www.website.com and
+                            other sites on the internet. However, visitors may choose to decline the use of DART cookies
+                            by visiting the Google ad and content network Terms of Service at the following URL – <a
+                                href="https://policies.google.com/technologies/ads" target="_blank"
+                                rel="noopener noreferrer">https://policies.google.com/technologies/ads</a>.</p>
+                        <p>Some of advertisers on our site may use cookies and web beacons. Our advertising partners are
+                            listed below. Each of our advertising partners has their own Terms of Service for their
+                            policies on user data. For easier access, we hyperlinked to their Privacy Policies below.
+                        </p>
+                        <ul>
+                            <li>
+                                <p>Google</p>
+                                <p><a href="https://policies.google.com/technologies/ads"
+                                        rel="noopener noreferrer">https://policies.google.com/technologies/ads</a></p>
+                            </li>
+                        </ul>
+                        <p><strong>Advertising Partners Privacy Policies</strong></p>
+                        <p>You may consult this list to find the Terms of Service for each of the advertising partners of
+                            <span class="highlight preview_website_name">Website Name</span>.</p>
+                        <p>Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web
+                            Beacons that are used in their respective advertisements and links that appear on <span
+                                class="highlight preview_website_name">Website Name</span>, which are sent directly to
+                            users' browser. They automatically receive your IP address when this occurs. These
+                            technologies are used to measure the effectiveness of their advertising campaigns and/or to
+                            personalize the advertising content that you see on websites that you visit.</p>
+                        <p>Note that <span class="highlight preview_website_name">Website Name</span> has no access to
+                            or control over these cookies that are used by third-party advertisers.</p>
+                        <p><strong>Third-Party Privacy Policies</strong></p>
+                        <p><span class="highlight preview_website_name">Website Name</span>'s Terms of Service does not
+                            apply to other advertisers or websites. Thus, we are advising you to consult the respective
+                            Privacy Policies of these third-party ad servers for more detailed information. It may
+                            include their practices and instructions about how to opt-out of certain options. You may
+                            find a complete list of these Privacy Policies and their links here: Terms of Service Links.
+                        </p>
+                        <p>You can choose to disable cookies through your individual browser options. To know more
+                            detailed information about cookie management with specific web browsers, it can be found at
+                            the browsers' respective websites. What Are Cookies?</p>
+                        <p><strong>CCPA Terms of Service (Do Not Sell My Personal Information)</strong></p>
+                        <p>Under the CCPA, among other rights, California consumers have the right to:</p>
+                        <p>Request that a business that collects a consumer's personal data disclose the categories and
+                            specific pieces of personal data that a business has collected about consumers.</p>
+                        <p>Request that a business delete any personal data about the consumer that a business has
+                            collected.</p>
+                        <p>Request that a business that sells a consumer's personal data, not sell the consumer's
+                            personal data.</p>
+                        <p>If you make a request, we have one month to respond to you. If you would like to exercise any
+                            of these rights, please contact us.</p>
+                        <p><strong>GDPR Terms of Service (Data Protection Rights)</strong></p>
+                        <p>We would like to make sure you are fully aware of all of your data protection rights. Every
+                            user is entitled to the following:</p>
+                        <p>The right to access – You have the right to request copies of your personal data. We may
+                            charge you a small fee for this service.</p>
+                        <p>The right to rectification – You have the right to request that we correct any information
+                            you believe is inaccurate. You also have the right to request that we complete the
+                            information you believe is incomplete.</p>
+                        <p>The right to erasure – You have the right to request that we erase your personal data, under
+                            certain conditions.</p>
+                        <p>The right to restrict processing – You have the right to request that we restrict the
+                            processing of your personal data, under certain conditions.</p>
+                        <p>The right to object to processing – You have the right to object to our processing of your
+                            personal data, under certain conditions.</p>
+                        <p>The right to data portability – You have the right to request that we transfer the data that
+                            we have collected to another organization, or directly to you, under certain conditions.</p>
+                        <p>If you make a request, we have one month to respond to you. If you would like to exercise any
+                            of these rights, please contact us.</p>
+                        <p><strong>Children's Information</strong></p>
+                        <p>Another part of our priority is adding protection for children while using the internet. We
+                            encourage parents and guardians to observe, participate in, and/or monitor and guide their
+                            online activity.</p>
+                        <p><span class="highlight preview_website_name">Website Name</span> does not knowingly collect
+                            any Personal Identifiable Information from children under the age of 13. If you think that
+                            your child provided this kind of information on our website, we strongly encourage you to
+                            contact us immediately and we will do our best efforts to promptly remove such information
+                            from our records.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="footer-nav">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="subscribe-top">
+                        <div class="sp-logo">
+                            <img src="assets/images/logo.png" alt="">
+                        </div>
+                        <div class="sp-subscription-form">
+                            <div class="sp-input">
+                                <h4>Subscribe Us Now :</h4>
+                                <div class="input-group">
+                                    <input type="text" class="form-control sp-in" placeholder="Enter Your Email Address"
+                                        onfocus="this.placeholder=''"
+                                        onblur="this.placeholder='Enter Your Email Address'"
+                                        aria-label="Recipient's username" aria-describedby="basic-addon2">
+                                    <div class="input-group-append">
+                                        <span class="input-group-text" id="basic-addon2">Subscribe</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="about-company">
+                            <h4>About Company</h4>
+                            <p>Let us together create the new building of the future
+                                which will be everything in one form: architecture
+                                and sculpture and painting. The greatest advances
+                                of civilization, whether in architecture.</p>
+                            <p>Painting or painting, science literature, in industry or
+                                agriculture, have never come from.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="about-company">
+                            <h4>Services</h4>
+                            <ul class="single-footer-widget">
+                                <li><a href="#">Wall Painting</a></li>
+                                <li><a href="#">Normal Painting</a> </li>
+                                <li><a href="#">House Painting</a></li>
+                                <li><a href="#">Commercial Painting</a></li>
+                                <li><a href="#">Painting Butck</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="about-company">
+                            <h4>Company</h4>
+                            <ul class="single-footer-widget">
+                                <li><a href="about-us.html">About Us</a></li> 
+                                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                                <li><a href="Terms-Service.html">Terms of Service</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="about-company">
+                            <h4>Follow Us:</h4>
+                            <div class="social-icon">
+                                <ul class="sicon-frist">
+                                    <li><a href="#"><i class="fab fa-twitter sicon"></i></a></li> 
+                                    <li><a href="#"><i class="fab fa-facebook-f sicon"></i></a></li> 
+                                    <li><a href="#"><i class="fab fa-linkedin-in sicon"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>© 2019 All Rights Reserved By Paint</p>
+    </footer>
+
+
+
+    <script src="assets/js/jquery-3.4.1.min.js"></script>
+
+    <script src="assets/js/wow.min.js"></script>
+
+    <script src="assets/js/countdown.js"></script>
+
+    <script src="assets/js/jquery.counterup.min.js"></script>
+
+    <script src="assets/js/shuffle.js"></script>
+
+    <script src="assets/js/waypoints.min.js"></script>
+
+    <script src="assets/js/jquery-ui.js"></script>
+
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <script src="assets/js/custom.js"></script>
+</body>
+
+<!-- Mirrored from demo.Paint.com/htmldemo/we-paintV2/wepaint-yellow/about-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Nov 2021 05:32:45 GMT -->
+
+</html>
