@@ -87,6 +87,16 @@ p {
     line-height: 25px;
     margin: 0;
 }
+p h2,
+.h2 h1 {
+    display: inline;
+    font-size: inherit;
+}
+.p h2,
+p h2{
+    font-size: 15px;
+    font-weight: normal;
+}
 /**------------Hamburger menu Menu------------*/
 
 button.navbar-toggler.nav-icon span.navbar-toggler-icon {
